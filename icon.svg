@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <defs>
+    <linearGradient id="bg" x1="14" y1="10" x2="112" y2="120" gradientUnits="userSpaceOnUse"><stop stop-color="#347e58"/><stop offset="1" stop-color="#173f31"/></linearGradient>
+    <linearGradient id="ball" x1="35" y1="24" x2="88" y2="99" gradientUnits="userSpaceOnUse"><stop stop-color="#fffef5"/><stop offset="1" stop-color="#dfead5"/></linearGradient>
+    <filter id="shadow" x="18" y="15" width="94" height="101" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse"><feGaussianBlur stdDeviation="5"/></filter>
+    <clipPath id="clip"><circle cx="64" cy="59" r="37"/></clipPath>
+  </defs>
+  <rect width="128" height="128" rx="34" fill="url(#bg)"/>
+  <circle cx="64" cy="66" r="37" fill="#0c281e" opacity=".32" filter="url(#shadow)"/>
+  <path d="M21 94c13 9 27 14 43 14s30-5 43-14" fill="none" stroke="#c9f26c" stroke-linecap="round" stroke-width="3" opacity=".8"/>
+  <circle cx="64" cy="59" r="37" fill="url(#ball)"/>
+  <g clip-path="url(#clip)" fill="#236b48" stroke="#236b48" stroke-linejoin="round" stroke-width="2.4">
+    <path d="m64 43 11 8-4 13H57l-4-13z"/>
+    <path d="m64 43 1-21 17 5 7 16-14 8M53 51 39 43l7-16 19-5-1 21M57 64 43 75l-12-12 1-20 7 0m32 0 15 0 8 20-12 12-10-11m-14 0 4 15-15 12-16-3-1-17 14-12m28 0 11 12-1 17-16 3-15-12 4-15"/>
+  </g>
+  <circle cx="64" cy="59" r="37" fill="none" stroke="#fff" stroke-opacity=".9" stroke-width="2.5"/>
+  <path d="m36 27 4-7m51 8 6-6" stroke="#d9f88b" stroke-linecap="round" stroke-width="3"/>
+  <circle cx="28" cy="48" r="2" fill="#d9f88b"/><circle cx="101" cy="75" r="2" fill="#d9f88b"/>
+</svg>

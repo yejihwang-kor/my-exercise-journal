@@ -1,0 +1,11 @@
+{
+  "name": "나의 운동 일지",
+  "short_name": "운동 일지",
+  "description": "운동 훈련과 레슨을 기록하고 다시 꺼내 보는 나만의 운동 일지",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f7f8f4",
+  "theme_color": "#f7f8f4",
+  "lang": "ko",
+  "icons": [{ "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
